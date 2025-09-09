@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar SAE 10 | ¡Última oportunidad!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Configuración de Tailwind para incluir el color de la marca
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'sae-red': '#e4002b',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+        .bg-hero {
+            background-image: url('https://placehold.co/1200x600/f0f4f8/334155?text=SAE+9+vs+SAE+10');
+            background-size: cover;
+            background-position: center;
+        }
+        .cta-button {
+            transition: transform 0.2s ease-in-out;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Urgency Section -->
+    <section class="py-16 bg-sae-red text-white text-center">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">¡Faltan pocas horas para el webinar!</h1>
+            <p class="text-lg sm:text-xl mb-8">No pierdas la oportunidad de dar el salto a la eficiencia. Quedan pocos lugares disponibles.</p>
+            <p class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-8 animate-pulse">
+                📅 Lunes 22 de Septiembre<br>
+                ⏰ 10:00 a.m.
+            </p>
+            <a href="#register-form" class="cta-button inline-block bg-white text-sae-red font-bold py-4 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                Regístrate antes de que cierre el cupo
+            </a>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-16 bg-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6">¿SAE 9 te está limitando?</h2>
+            <p class="text-lg text-gray-600 mb-10">Sabemos que trabajar con una versión antigua puede generar frustración y cuellos de botella.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card p-6 border border-red-600">
+                    <div class="text-5xl text-sae-red mb-4">❌</div>
+                    <h3 class="text-xl font-semibold mb-2">Reportes Limitados</h3>
+                    <p class="text-gray-600">No puedes obtener la información que necesitas para tomar decisiones estratégicas.</p>
+                </div>
+                <div class="card p-6 border border-red-600">
+                    <div class="text-5xl text-sae-red mb-4">❌</div>
+                    <h3 class="text-xl font-semibold mb-2">Procesos Manuales</h3>
+                    <p class="text-gray-600">Pierdes tiempo valioso en tareas repetitivas y propensas a errores.</p>
+                </div>
+                <div class="card p-6 border border-red-600">
+                    <div class="text-5xl text-sae-red mb-4">❌</div>
+                    <h3 class="text-xl font-semibold mb-2">Mayor Riesgo de Errores</h3>
+                    <p class="text-gray-600">Los errores humanos cuestan tiempo y dinero a tu empresa.</p>
+                </div>
+            </div>
+            <a href="#register" class="cta-button mt-12 inline-block bg-sae-red text-white font-bold py-4 px-8 rounded-full shadow-lg hover:bg-red-700 transition duration-300">
+                La solución está en SAE 10. ¡Regístrate ya!
+            </a>
+        </div>
+    </section>
+
+    <!-- Webinar Details Section -->
+    <section class="py-16 bg-gray-200">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8">Lo que aprenderás en nuestro Webinar:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">✅</div>
+                    <h3 class="text-xl font-semibold mb-2">Diferencias Reales</h3>
+                    <p class="text-gray-600">Comparativa en vivo entre SAE 9 y SAE 10 para que veas el potencial.</p>
+                </div>
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">✅</div>
+                    <h3 class="text-xl font-semibold mb-2">Ahorro de Tiempo y Dinero</h3>
+                    <p class="text-gray-600">Descubre cómo la automatización de procesos mejora tu rentabilidad.</p>
+                </div>
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">✅</div>
+                    <h3 class="text-xl font-semibold mb-2">Casos Prácticos</h3>
+                    <p class="text-gray-600">Ejemplos aplicados a situaciones del día a día para tu negocio.</p>
+                </div>
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">✔️</div>
+                    <h3 class="text-xl font-semibold mb-2">Tips Prácticos</h3>
+                    <p class="text-gray-600">Consejos de expertos para sacar el máximo provecho de SAE 10.</p>
+                </div>
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">✔️</div>
+                    <h3 class="text-xl font-semibold mb-2">Beneficios Exclusivos</h3>
+                    <p class="text-gray-600">Promociones y descuentos especiales solo para los asistentes.</p>
+                </div>
+                <div class="card p-6">
+                    <div class="text-5xl text-green-600 mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2">Demostración en Vivo</h3>
+                    <p class="text-gray-600">Observa cómo la evolución de SAE transforma tu operación en tiempo real.</p>
+                </div>
+            </div>
+            <a href="#register" class="cta-button mt-12 inline-block bg-sae-red text-white font-bold py-4 px-8 rounded-full shadow-lg hover:bg-red-700 transition duration-300">
+                Reserva tu lugar ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register-form" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-8">Asegura tu acceso al webinar</h2>
+            <form action="#" method="POST" class="bg-gray-100 p-8 rounded-2xl shadow-lg">
+                <div class="mb-6">
+                    <label for="name" class="block text-gray-700 font-semibold mb-2">Nombre completo</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-sae-red transition" required>
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-gray-700 font-semibold mb-2">Correo electrónico</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-sae-red transition" required>
+                </div>
+                <div class="mb-6">
+                    <label for="company" class="block text-gray-700 font-semibold mb-2">Empresa</label>
+                    <input type="text" id="company" name="company" class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-sae-red transition" required>
+                </div>
+                <button type="submit" class="cta-button w-full bg-sae-red text-white font-bold py-4 px-8 rounded-full shadow-lg hover:bg-red-700 transition duration-300">
+                    ¡Sí, quiero evolucionar mi empresa!
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 SAE 10. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
